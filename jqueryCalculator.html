@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+<style>
+	.form-control {			
+		margin: 20px 0px;
+		width: 50%;
+	}
+	
+</style>
+
+</head>
+
+<body>
+
+<h2> Mini Calculator: </h2>
+
+<div class="form-group">
+  <label for="usr">Insert your numbers here:</label>
+  <input type="number" class="form-control" id="inputOne">
+  <input type="number" class="form-control" id="inputTwo">
+    <div id="functions">
+	  <button type="button" class="btn btn-primary" id= addition>+</button>
+	  <button type="button" class="btn btn-success" id= subtraction>-</button>
+	  <button type="button" class="btn btn-info" id= multiplication>*</button>
+	  <button type="button" class="btn btn-danger" id= division>/</button>
+	  <button type="button" class="btn btn-secondary" id="reset">Reset</button>
+	</div>	  
+  <h3>Result:</h3>
+	<div id=answer>
+		
+	</div>
+
+</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/advancedCalculatorV2.js"></script>
+</body>
+</html>
